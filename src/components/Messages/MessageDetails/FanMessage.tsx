@@ -58,7 +58,7 @@ export function FanMessage({ history, chathistory }: FanMessageProps) {
       
     //http://localhost:8005/messagDeleteNEdit
       const response = await fetch(
-      `http://3.229.148.115:8005/messagDeleteNEdit`,
+      `https://3.229.148.115:8005/messagDeleteNEdit`,
       {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -80,7 +80,7 @@ export function FanMessage({ history, chathistory }: FanMessageProps) {
     const response = await fetch(
       
       //http://localhost:8005/messagDeleteNEdit
-      `http://3.229.148.115:8005/messageDeleteNEdit`,
+      `https://3.229.148.115:8005/messageDeleteNEdit`,
       {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -101,7 +101,7 @@ export function FanMessage({ history, chathistory }: FanMessageProps) {
       const response = await fetch(
         
         //`http://localhost:8005/fetchingchatshistory/${chat_id}/${page}`,
-        `http://3.229.148.115:8005/fetchingchatshistory/${chat_id}/${page}`,
+        `https://3.229.148.115:8005/fetchingchatshistory/${chat_id}/${page}`,
         {
           method: 'GET',
           headers: { 'Content-Type': 'application/json' },

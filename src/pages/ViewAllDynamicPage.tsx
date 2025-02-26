@@ -139,7 +139,7 @@ const ViewAllDynamicPage = ({ CategoryData }: any) => {
        // `http://localhost:8003/viewallcompetitions/${CategoryData.CategoryName}/${Cursor}/${Page}`,
       
         
-        `http://3.229.148.115:8003/viewallcompetitions/${CategoryData.CategoryName}/${Cursor}/${Page}`,
+        `https://3.229.148.115:8003/viewallcompetitions/${CategoryData.CategoryName}/${Cursor}/${Page}`,
         {
           method: "GET",
           credentials: "include",
